@@ -46,8 +46,7 @@ def read(fname):
 setup(
     name="python-server-metrics",
     version=app.__version__,
-    description=read('DESCRIPTION'),
-    long_description=read('README.rst'),
+    description='A very simple set of methods to collect metrics about your servers',
     license='The MIT License',
     platforms=['OS Independent'],
     keywords='python, utility, metrics',
